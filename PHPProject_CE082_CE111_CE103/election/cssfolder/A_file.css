@@ -1,0 +1,108 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+.container{
+    margin:auto;
+    /* background-image: linear-gradient(to top, #9f5ee5, #7651c3, #5142a0, #30337c, #142359); */
+}
+.formclass{
+    padding: 0.5%;
+    width:25%;
+    min-height: 30%;
+    position:absolute;
+    top:60%;
+    left:50%;
+    transform: translate(-50%,-60%);
+}
+.formclass .form-control{
+    height: 7vh;
+}
+.formclass .btn{
+    height: 7vh;
+}
+.formclass .button{
+    margin-top:12px;
+}
+.formclass .link{
+    margin:10px,0px;
+}
+.formclass .signup{
+    margin:15px;
+    text-align: center;
+}
+
+
+
+  .header{
+      margin:10px;
+  }
+  .navbar_css{
+      background-color:#250582;
+      color:cornsilk;  
+      min-height: 100vh;
+  }
+  a{
+      text-decoration: none;
+      color: white;
+      font-size: 12px;
+  }
+  a:hover{
+      color: plum;
+  }
+  .heading{
+      font-size: 24px;
+      margin:30px;
+  }
+  /* home-css */
+
+  .contanier-main-admin{
+      margin: 15px;
+      width:60%;
+  }
+  .heading_home{
+      margin-left:15px;
+      margin:30px 15px;
+  }
+
+  /* add election page css*/
+
+
+/* manage election page */
+
+.manage_card{
+    margin:10px;
+    min-height: 30vh;
+}
+
+/* update page */
+
+.date{
+    margin:10px;
+    color:black;
+    font-size: 20px;
+}
+
+
+.result{
+    width:800px;
+    margin-left:30px;
+}
+.result .row {
+    /* border: 1px solid black; */
+    background-image: linear-gradient(to top, #5ed4e5, #46c0ec, #58a8eb, #7e8ddd, #9f6ebe);
+}
+.result .row .col-md-6{
+    /* border: 1px solid black; */
+    border-collapse: collapse;
+    font-weight: 500;
+    font-size: 1.2em;
+    padding: 5px;
+}
+.result .row .head{
+   /* background-color: cornflowerblue; */
+   border-bottom:2px solid #142359;
+}
