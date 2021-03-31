@@ -11,7 +11,7 @@ if($check1)
     $r=$conn->query($sql_check);
     $row=$r->fetch(PDO::FETCH_ASSOC);
     $username=$row['voter_name'];
-    $page="/php_project_sem4/PHPProject_CE082_CE111_CE103/PHPProject_CE082_CE111_CE103/election/voter/V_profile.php";
+    $page="/php_project_sem4/PHPProject_CE082_CE111_CE103/election/voter/V_profile.php";
 }
 if($check2)
 {
@@ -20,7 +20,7 @@ if($check2)
     $r=$conn->query($sql_check);
     $row=$r->fetch(PDO::FETCH_ASSOC);
     $username=$row['elector_name'];
-    $page="/php_project_sem4/PHPProject_CE082_CE111_CE103/PHPProject_CE082_CE111_CE103/election/candidate/E_profile.php";
+    $page="/php_project_sem4/PHPProject_CE082_CE111_CE103/election/candidate/E_profile.php";
 }
 echo '<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
 <div class="container-fluid">
@@ -31,13 +31,13 @@ echo '<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
   <div class="collapse navbar-collapse " id="navbarSupportedContent">
     <ul class="navbar-nav mb-2 mb-lg-0 ms-auto">
       <li class="nav-item">
-        <a class="nav-link" aria-current="page" href="/php_project_sem4/PHPProject_CE082_CE111_CE103/PHPProject_CE082_CE111_CE103/election/index.php">Home</a>
+        <a class="nav-link" aria-current="page" href="/php_project_sem4/PHPProject_CE082_CE111_CE103/election/index.php">Home</a>
       </li>
       <li class="nav-item">
-      <a class="nav-link" aria-current="page" href="/php_project_sem4/PHPProject_CE082_CE111_CE103/PHPProject_CE082_CE111_CE103/election/about us.php">About US </a>
+      <a class="nav-link" aria-current="page" href="/php_project_sem4/PHPProject_CE082_CE111_CE103/election/about us.php">About US </a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" aria-current="page" href="/php_project_sem4/PHPProject_CE082_CE111_CE103/PHPProject_CE082_CE111_CE103/election/contact.php">contact US </a>
+      <a class="nav-link" aria-current="page" href="/php_project_sem4/PHPProject_CE082_CE111_CE103/election/contact.php">contact US </a>
     </li>
    ';
     
@@ -49,9 +49,9 @@ echo '<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
          login
         </a>
         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <li><a class="dropdown-item" href="/php_project_sem4/PHPProject_CE082_CE111_CE103/PHPProject_CE082_CE111_CE103/election/voter/V_login.php">Voter</a></li>
-          <li><a class="dropdown-item" href="/php_project_sem4/PHPProject_CE082_CE111_CE103/PHPProject_CE082_CE111_CE103/election/candidate/E_login.php">Candidate</a></li>
-          <li><a class="dropdown-item" href="/php_project_sem4/PHPProject_CE082_CE111_CE103/PHPProject_CE082_CE111_CE103/election/admin/A_login.php">Admin</a></li>
+          <li><a class="dropdown-item" href="/php_project_sem4/PHPProject_CE082_CE111_CE103/election/voter/V_login.php">Voter</a></li>
+          <li><a class="dropdown-item" href="/php_project_sem4/PHPProject_CE082_CE111_CE103/election/candidate/E_login.php">Candidate</a></li>
+          <li><a class="dropdown-item" href="/php_project_sem4/PHPProject_CE082_CE111_CE103/election/admin/A_login.php">Admin</a></li>
         </ul>
         </li>';
         echo ' <li class="nav-item dropdown">
@@ -59,18 +59,18 @@ echo '<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
          signup
         </a>
         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <li><a class="dropdown-item" href="/php_project_sem4/PHPProject_CE082_CE111_CE103/PHPProject_CE082_CE111_CE103/election/voter/V_signup.php">Voter</a></li>
-          <li><a class="dropdown-item" href="/php_project_sem4/PHPProject_CE082_CE111_CE103/PHPProject_CE082_CE111_CE103/election/candidate/E_signup.php">Candidate</a></li>
+          <li><a class="dropdown-item" href="/php_project_sem4/PHPProject_CE082_CE111_CE103/election/voter/V_signup.php">Voter</a></li>
+          <li><a class="dropdown-item" href="/php_project_sem4/PHPProject_CE082_CE111_CE103/election/candidate/E_signup.php">Candidate</a></li>
         </ul>
         </li>';
       }
       else
       {
         echo '<li class="nav-item">
-        <a class="nav-link"  href="/php_project_sem4/PHPProject_CE082_CE111_CE103/PHPProject_CE082_CE111_CE103/election/vote.php">Vote</a>
+        <a class="nav-link"  href="/php_project_sem4/PHPProject_CE082_CE111_CE103/election/vote.php">Vote</a>
         </li>
         <li class="nav-item">
-        <a class="nav-link" href="/php_project_sem4/PHPProject_CE082_CE111_CE103/PHPProject_CE082_CE111_CE103/election/logout.php">Logout</a>
+        <a class="nav-link" href="/php_project_sem4/PHPProject_CE082_CE111_CE103/election/logout.php">Logout</a>
           </li>
          <li class="nav-item">
         <a class="nav-link" href="'.$page.'"><i class="fa fa-user-circle" ></i> '.$username.'  </a>
